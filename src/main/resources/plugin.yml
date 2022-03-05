@@ -1,0 +1,15 @@
+name: Staffmode
+version: '${project.version}'
+main: me.puedo.staffmode.Main
+commands:
+  staffmod:
+    aliases: [v, mod]
+    permission: staffmode.use
+  vanish:
+    permission: staff.vanish
+  freeze:
+    permission: staff.freeze
+  tpto:
+    permission: staff.teleport
+  staffchat:
+    permission: staff.staffchat
